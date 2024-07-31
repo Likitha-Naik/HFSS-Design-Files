@@ -1,5 +1,5 @@
 $begin 'AnsoftProject'
-	Created='Tue Sep 15 22:16:17 2020'
+	Created='Wed July 18 22:16:17 2024'
 	FileOwnedByWorkbench=false
 	Product='HFSS'
 	NextUniqueID=0
@@ -10,7 +10,7 @@ $begin 'AnsoftProject'
 	$end 'Desktop'
 	$begin 'HFSSEnvironment'
 		Version(1, 0)
-	$end 'HFSSEnvironment'
+	$end 'HFSSTwinBuilderEnvironment'
 	$begin 'HFIEEnvironment'
 		Version(1, 0)
 	$end 'HFIEEnvironment'
@@ -86,7 +86,7 @@ $begin 'AnsoftProject'
 			Temperatures(135, '22cel')
 		$end 'TemperatureSettings'
 		ObjsEnabledForDeformation()
-		SolutionType='DrivenTerminal'
+		SolutionType='TerminalNetwork'
 		MaterialDensity=1
 		MassOfTissue=1
 		UseAutoDCThickness=true
